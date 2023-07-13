@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const caCertificatePath = './X509-cert-5395350927322369437.pem';
+const caCertificatePath = 'X509-cert-5395350927322369437.pem';
 const connectMongo = () => {
   mongoose.set("strictQuery", true);
   mongoose
